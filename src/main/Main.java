@@ -80,7 +80,7 @@ public class Main
 			@Override
 			public void run()
 			{
-				while(bitmap.collapsePoint(imgs, 5, 5, true))
+				while(bitmap.collapsePoint(imgs, 2, 2, true))
 				{
 					pCanvas.repaint();
 				}
@@ -203,13 +203,11 @@ public class Main
 			public void keyPressed(KeyEvent e)
 			{
 				int k = e.getKeyCode();
-				
-				System.out.println("Is this even working?");
-				
+								
 				if(k == e.VK_C)
 				{
 					System.out.println("Collapsing point...");
-					bitmap.collapsePoint(imgs, 5, 5, true);
+					bitmap.collapsePoint(imgs, 2, 2, true);
 					pCanvas.repaint();
 				}
 				if(k == e.VK_SPACE)

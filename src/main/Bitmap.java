@@ -13,11 +13,11 @@ public class Bitmap
 		this.width = width;
 		this.height = height;
 		
-		image = new BufferedImage(width, height, BufferedImage.TYPE_INT_RGB);
+		image = new BufferedImage(width, height, BufferedImage.TYPE_INT_ARGB);
 		for(int x = 0; x < width; x++)
 		for(int y = 0; y < height; y++)
 		{
-			image.setRGB(x, y, Color.white.getRGB());
+			image.setRGB(x, y, new Color(0, 0, 0, 0).getRGB());
 		}
 	}
 	
