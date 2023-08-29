@@ -2,7 +2,7 @@
 This is a simple utility for generating images with samples and wave function collapse.
 May come up with a more clever name in the future when this thing is feature-complete.
 
-Current version: a-1
+Current version: a-2
 
 Current features:
 
