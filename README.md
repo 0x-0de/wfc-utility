@@ -15,7 +15,7 @@ Known issues:
 
 Planned features:
 
-Multiple samples.
+- Multiple samples.
 - Saving/exporting generated images.
 - Basic canvas painting tools.
 - Bitmap pattern-determined WFC (rather than just a random offset).
